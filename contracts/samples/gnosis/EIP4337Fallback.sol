@@ -5,8 +5,8 @@ pragma solidity ^0.8.7;
 
 import "@gnosis.pm/safe-contracts/contracts/handler/DefaultCallbackHandler.sol";
 import "@gnosis.pm/safe-contracts/contracts/GnosisSafe.sol";
-import "@openzeppelin/contracts/interfaces/IERC1271.sol";
-import "@openzeppelin/contracts/utils/cryptography/ECDSA.sol";
+import "@openzeppelin/contracts-v4.9/interfaces/IERC1271.sol";
+import "@openzeppelin/contracts-v4.9/utils/cryptography/ECDSA.sol";
 import "../../interfaces/IAccount.sol";
 import "./EIP4337Manager.sol";
 
